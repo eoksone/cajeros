@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculos de hora</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+
+<body>
+
+    <section class="form-register">
+
+        <h3> CALCULOS PRODUCTIVIDAD</h3>
+
+        <form action="">
+
+            <table>
+
+                <tr>
+                    <td>
+                        <input class="controls" type="text" id="numero1" placeholder="ingrese horas trabajadas:">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input class="controls" type="text" id="numero2" placeholder="ingrese horas de apoyo:">
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <input class="controls" type="text" id="numero3" placeholder="ingrese horas de conexion:">
+                    </td>
+
+                </tr>
+
+
+            </table>
+            <input class="botons" type="button" value="Calcular" onclick="alert(suma(10,50));">
+
+
+
+        </form>
+
+    </section>
+
+
+
+    <script>
+        var suma = function(numero1, numero2) {
+            var numero1 = parseFloat(document.getElementById("numero1").value);
+            var numero2 = parseFloat(document.getElementById("numero2").value);
+            var numero3 = parseFloat(document.getElementById("numero3").value);
+
+            var resultado = numero2 + numero3;
+            var resultado1 = numero1 * 0.8;
+            var resultado2 = numero1;
+            var resultado3 = numero1 * 0.5;
+
+
+
+            alert('LA SUMA DE TUS HORAS ES DE :' + resultado + '   El minimo de la suma de horas trabajadas es :' + resultado1 + '   El maximo en la suma de horas : ' + resultado2 + '   las horas de apoyo no deben superar:  ' + resultado3);
+
+
+        }
+    </script>
+</body>
+
+</html>
