@@ -22,11 +22,8 @@ body {
 }
 
 .form-register {
-    width: 500px;
-    background: #8360c3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    width: 450px;
+    background-image: url(../cajeros/img/Magic.png);
 
     padding: 30px;
     margin: auto;
@@ -44,7 +41,7 @@ body {
 }
 
 .controls {
-    width: 100%;
+    width: 160%;
     background: #ffffff;
     padding: 10px;
     border-radius: 10px;
@@ -53,7 +50,7 @@ body {
     font-family: "cabecera";
     font-size: 25px;
     color: rgb(0, 0, 0);
-    margin-left: 70px;
+   
     text-align: center;
 }
 
@@ -76,15 +73,33 @@ body {
 
 .form-register .botons {
     width: 100%;
-    background: #396afc;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #396afc;
 
     border: none;
     padding: 12px;
     color: white;
     margin: 16px 0;
     font-size: 16px;
-    margin-left: 120px;
+    margin-left: 100px;
    
+}
+
+
+
+.form-register .botonss {
+    width: 100%;
+    background: rgb(209, 195, 64);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    margin-left: 100px;
+   
+}
+@media (max-width : 480px ){
+
+    form {
+        width: 100%;
+    }
 }
