@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+
+<body>
+
+
+    <h1> Calculos de horas</h1>
+
+    <form action="">
+        <table>
+            <tr>
+
+                <td>
+                    Horas trabajadas : <input type="text" id="a">
+                </td>
+            </tr>
+
+            <tr>
+
+                <td>
+                    Horas de apoyo : <input type="text" id="b">
+                </td>
+            </tr>
+
+            <tr>
+
+                <td>
+                    Horas de conexion : <input type="text" id="c">
+                </td>
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <input type="button" value="Calcular" onclick="alert(Calcular(10,50));">
+                </td>
+            </tr>
+
+        </table>
+
+
+    </form>
+
+    <script>
+        function calcular() {
+
+            var num2 = parseInt(document.getElementById('b').Value);
+            var num3 = parseInt(document.getElementById('c').Value);
+            var suma = num2 + num3;
+            alert('LA SUMA DE TUS HORAS ES DE :' + suma);
+
+
+        }
+    </script>
+
+
+</body>
+
+</html>
