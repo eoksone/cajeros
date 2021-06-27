@@ -21,7 +21,7 @@
         .then((value) => {
         swal(" No puedes superar las... "+ resultado2 +" Horas ")
         .then((value) => {
-        swal(" Tus horas de apoyo no pueden ser más de....  :"+ resultado2 +" Horas")
+        swal(" Tus horas de apoyo no pueden ser más de....  "+ resultado2 +" Horas")
     
     
 });
